@@ -1,8 +1,8 @@
 # Project Overview
 
-**PROJECT NAME:** dfadfadfsdfadf
+**PROJECT NAME:** Project 1
 
-**PROJECT AUTHOR:** lkjlkjljlkadfsd
+**PROJECT AUTHOR:** Christina Phork
 
 ## Project Schedule
 
@@ -13,7 +13,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
+|Day 2| Wireframes / Priority Matrix / Timeline | Incomplete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
@@ -26,7 +26,7 @@ Use this section to describe your final project and perhaps any links to relevan
 
 ## Google Sheet
 
-Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) 
+Include link to your google sheet here.  Here is the sample [Joe had used in class](https://spreadsheets.google.com/feeds/list/1lLER4scBm67_Kh6aY1WIif3ORhnKmZhTgfwNDJht_K4/1/public/full?alt=json) 
 
 ## Portfolio I want to Emulate
 
@@ -34,9 +34,9 @@ Search and compare at least 3 profile web sites.  Record your findings in the ta
 
 Link To Site  | One Thing I'd Like To Incorporate | 
 | ------------- | ------------- |
-| [denisechandler.com](http://www.denisechandler.com/)| landing page animation
-|[jkeohan.com](http://jkeohan.com/) | mouseover on a project triggers animations |
-| [mattfarley.ca](http://mattfarley.ca/) |  layout of the projects
+|https://jtom.me/| about me section; from picture down to "GET IN TOUCH"
+|https://www.loungelizard.com/| fade in video|
+|https://jacekjeznach.com/|  the whole layout: interactive, cool color  scheme, project layout; HIS CURSOR! I WANT!
 
 ---
 
@@ -44,8 +44,9 @@ Link To Site  | One Thing I'd Like To Incorporate |
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
-- [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg)
+- [Mobile](https://i.imgur.com/bw5I30c.jpg)
+- [Desktop](https://i.imgur.com/QarWqdP.jpg)
+- [Fonts & Colors](https://i.imgur.com/AGuCypi.jpg)
 
 Wireframing Resources:
 
@@ -55,7 +56,7 @@ Wireframing Resources:
 
 ## Time/Priority Matrix 
 
-[Link](https://res.cloudinary.com/jkeohan/image/upload/a_270/v1591621734/project1_matrix_ocy5gc_h1kg0m.jpg)
+[Link](https://i.imgur.com/9HuURiT.jpg)
 
 Include a full list of features that have been prioritized based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
 
@@ -90,28 +91,28 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | Hamburger | H | 1hr | hr |
-| Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
-| Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
-| Working with API | H | 3hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 1hr |  hr |
-| Total | H | 15.5hrs| hrs |
+| Project Previews | H | 3hrs | hr |
+| Regular Nav | H | 2hrs | hr |  
+| Adding Social Media Icons | H | 2hrs|  hr | 
+| Portfolio sections and flex| M | 3hrs | hr|
+| Responsive | H | 3-4hrs | hr |
+| Preview Projects Hover | H | 3hrs| hr |
+| Total | H | 21hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
-| Materialize | H | 4hr | -hr | hr |
-| Bootstrap | H | 4hr | hr |
-| Make own icon | L | 4hr | hr |
-| Total | H | 20hrs| hrs |
+| Project Effects| L | 3hrs | -hr | hr |
+| Header & About Me typed out and sound| L | 3hrs | hr |
+| Interactive Self Photo(s)| M | 4hrs | hr |
+| Bootstrap | H | 3hrs | hr |
+| Make own icon | L | 3hrs | hr |
+| Total | H | 16hrs| hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
+ www.1001fonts.com
+
 
 ## Code Snippet
 
