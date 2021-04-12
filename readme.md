@@ -1,6 +1,6 @@
 # Project Overview
 
-**PROJECT NAME:** Project 1
+**PROJECT NAME:** Christina's 1st Project
 
 **PROJECT AUTHOR:** Christina Phork
 
@@ -12,17 +12,17 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 2| Wireframes / Priority Matrix / Timeline | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
+|Day 1| Layout of the page/CSS work for mobile | Incomplete
+|Day 2| Continue working on CSS for mobile and Tablet and Desktop | Incomplete
+|Day 3| Start on HTML and placements of texts and icons| Incomplete
+|Day 4| Work on postMVP| Incomplete
 |Day 5| Final Touches | Incomplete
 |Day 6| Present | Incomplete
 
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+Google sheets API 
 
 ## Google Sheet
 
@@ -49,23 +49,13 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 - [Tablet](https://i.imgur.com/UABCET7.jpg)
 - [Fonts & Colors](https://i.imgur.com/AGuCypi.jpg)
 
-Wireframing Resources:
 
-- [Mockflow](https://mockflow.com/app/#Wireframe)
-- [Figma](https://www.figma.com/)
 
 
 ## Time/Priority Matrix 
 
 [Link](https://i.imgur.com/9HuURiT.jpg)
 
-Include a full list of features that have been prioritized based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
-
-Now draw a vertical line on the y axis.  The top of this line should have `High` and the bottom `Low`.  This line will be used to assign a priority to to each feature you wish to include in the project.  
-
-Now create a separate list starting with A and assign it one of the features.  Continue to assign each feature a letter.  Once complete add each letter to the matrix assigning based on what your feel it's prioirty is an how long it will take to implement. If any one feature takes longer than 2hrs to complete than break it down into smaller tasks and reassign them a new letter. 
-
-Once complete tally up the time and determine how long the project will take to complete. Now break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo. 
 
 ### MVP/PostMVP - 5min
 
@@ -91,29 +81,33 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
+| Hamburger | H | 2hr | hr |
 | Project Previews | H | 3hrs | hr |
-| Regular Nav | H | 2hrs | hr |  
-| Adding Social Media Icons | H | 2hrs|  hr | 
-| Portfolio sections and flex| M | 3hrs | hr|
-| Responsive | H | 3-4hrs | hr |
-| Preview Projects Hover | H | 3hrs| hr |
-| Total | H | 21hrs| hrs |
+| Nav Bar: Desktop | H | 4hrs | hr |  
+| Nav Bar: Tablet/Mobile| H | 4hrs|  hr | 
+| Portfolio sections and flex| M | 5hrs | hr|
+| CSS for Mobile| H | 5-6hrs | hr |
+| CSS for Tablet | H | 3hrs| hr |
+| CSS for Desktop | H | 3hrs| hr |
+| Responsive| H | 5hrs | -hr | hr |
+| Bootstrap | H | 5hrs | hr |
+| Total | H | 34hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Effects| L | 3hrs | -hr | hr |
-| Header & About Me typed out and sound| L | 3hrs | hr |
-| Interactive Self Photo(s)| M | 4hrs | hr |
-| Bootstrap | H | 3hrs | hr |
-| Make own icon | L | 3hrs | hr |
-| Total | H | 16hrs| hrs |
-
+| Header & About Me typed out and sound| L | 5hrs | hr |
+| Interactive Self Photo(s)| M | 6hrs | hr |
+| Make own icon | L | 5hrs | hr |
+| Cursor/Hover Effects| L | 3hrs | -hr | hr |
+| Add Social Media| L | 4hrs | -hr | hr |
+| Total | H | 28hrs| hrs |
+ 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
  www.1001fonts.com
-
+ www.bootstrap.com
+ www.fontawesome.com
 
 ## Code Snippet
 
