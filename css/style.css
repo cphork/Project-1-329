@@ -1,3 +1,40 @@
 body {
-    background-color: #3FEFE5;
+    width: 576px;
 }
+
+h1{
+    font-size: 100px;
+    display: flex;
+    
+} 
+
+.container{ 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+
+.fas  {
+   font-size: 35px  !important;
+}
+
+.landing {
+    background-color: #3FEFE5;
+    height: 500px;
+}
+
+.porfolio {
+    background-color: #FC4344;
+    height: 500px;
+    
+}
+
+.bottom {
+    background-color: #3FEFE5;
+    height: 500px;
+}
+
+
+
