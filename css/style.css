@@ -29,17 +29,45 @@ h1{
    text-decoration: none;
 }
 
+
+/* LANDING SECTION */
 .landing {
     background-color: #3FEFE5;
     height: 600px;
 }
 
-.porfolio {
-    background-color: #FC4344;
-    height: 600px;
+.jumbotron {
+    
+    width: 400px;
+    background-color:  #FC4344;
+    margin-left: 250px;
+    margin-top: 120px
+    
 }
 
 
+/* PORTFOLIO SECTION */
+.porfolio {
+    background-color: #FC4344;
+    height: 475px;
+    
+}
+
+.card {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+
+  .card-group .card {
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-top: 6em;
+  }
+
+
+  /* BOTTOM SECTION */
 .bottom {
     background-color: #3FEFE5;
     height: 600px;
