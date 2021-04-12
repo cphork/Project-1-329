@@ -1,12 +1,106 @@
-header {
+
+
+
+/* header {
     box-sizing: none;
-}
+} */
 
 /* Mobile Query */ 
 /* @media only screen and (max-width: 600px) */
+/* body {
+    width: 675px;
+     
+}
+
+
+h1{
+    font-size: 50px;
+    display: flex;
+    
+} 
+
+.container{ 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+    
+}
+
+.fas  {
+   font-size: 35px  !important;
+   text-decoration: none;
+} */
+
+
+/* LANDING SECTION */
+/* .landing {
+    background-color: #3FEFE5;
+    height: 600px;
+}
+
+.jumbotron {
+    
+    width: 400px;
+    height: 315px;
+    background-color:  #FC4344;
+    margin-left: 250px;
+    margin-top: 120px
+    
+} */
+
+
+/* PORTFOLIO SECTION */
+/* .porfolio {
+    background-color: #FC4344;
+    height: 475px;
+    
+}
+
+.card {
+    display: flex;
+    align-items: flex-end;
+    align-content: space-around;
+  }
+
+  .card-group .card {
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-top: 6em;
+  } */
+
+
+  /* BOTTOM SECTION */
+/* .bottom {
+    background-color: #3FEFE5;
+    height: 600px;
+} */
+
+/* .jumbotron-bottom {
+    background-color:  #FC4344;
+    width: 500px;
+    height: 400px;
+    margin-left: 85px;
+    margin-top: 120px
+}
+
+.dropdown a.fas{
+    color: orange;
+} */
+
+
+/* MEDIA QUERY */
+
+/* @media screen and (max-width: 600px) {
+} */
+
+
+
+/* TABLET RESPONSE */
+
 body {
     width: 675px;
-    background-color: olive;
+     
 }
 
 
@@ -39,6 +133,7 @@ h1{
 .jumbotron {
     
     width: 400px;
+    height: 315px;
     background-color:  #FC4344;
     margin-left: 250px;
     margin-top: 120px
@@ -56,7 +151,6 @@ h1{
 .card {
     display: flex;
     align-items: flex-end;
-    flex-wrap: wrap;
     align-content: space-around;
   }
 
@@ -73,7 +167,20 @@ h1{
     height: 600px;
 }
 
+.jumbotron-bottom {
+    background-color:  #FC4344;
+    width: 500px;
+    height: 400px;
+    margin-left: 85px;
+    margin-top: 120px
+}
 
 .dropdown a.fas{
     color: orange;
 }
+
+
+
+
+
+
