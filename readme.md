@@ -15,14 +15,14 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 1| Layout of the page/CSS work for mobile | Incomplete
 |Day 2| Continue working on CSS for mobile and Tablet and Desktop | Incomplete
 |Day 3| Start on HTML and placements of texts and icons| Incomplete
-|Day 4| Work on postMVP| Incomplete
-|Day 5| Final Touches | Incomplete
+|Day 4| Work on postMVP and go over anything that needs touch up| Incomplete
+|Day 5| Final Touches/changes| Incomplete
 |Day 6| Present | Incomplete
 
 
 ## Project Description
 
-Google sheets API 
+Google sheets API Project
 
 ## Google Sheet
 
@@ -54,7 +54,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 ## Time/Priority Matrix 
 
-[Link](https://i.imgur.com/9HuURiT.jpg)
+[Link](https://i.imgur.com/7IpjwXd.jpg)
 
 
 ### MVP/PostMVP - 5min
