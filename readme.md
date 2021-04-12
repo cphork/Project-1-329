@@ -46,6 +46,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 - [Mobile](https://i.imgur.com/bw5I30c.jpg)
 - [Desktop](https://i.imgur.com/QarWqdP.jpg)
+- [Tablet](https://i.imgur.com/UABCET7.jpg)
 - [Fonts & Colors](https://i.imgur.com/AGuCypi.jpg)
 
 Wireframing Resources:
