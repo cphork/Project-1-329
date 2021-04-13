@@ -37,6 +37,8 @@ h1{
 } 
 
 
+
+
 /* PORTFOLIO SECTION */
 .porfolio {
     background-color: #FC4344;
@@ -85,8 +87,6 @@ h1{
 /* TABLET LAYOUT */
 
 /* NavBar Extended */
-
-
 /* NavBar Background Color */
 .bg-light {
     background-color: pink !important;
@@ -113,6 +113,34 @@ div .long {
     color: red;
     font-size: 50px;
 }
+
+/* Jumbotron for Tablet */
+
+
+.jumbotron{
+    width: 600px;
+    height: 450px;
+    background-color:  #FC4344;
+    margin-left: 400px;
+    margin-top: 50px
+}
+
+/* Quad Cards Layout*/
+
+/* Text color in cards */
+/* div .card {
+    color: red;
+   
+} */
+
+div .card {
+    display: grid;
+    
+  
+    
+
+}
+
 
 
 
