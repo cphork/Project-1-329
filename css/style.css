@@ -1,16 +1,11 @@
-h1{
-    font-size: 50px;
-    display: flex;
-    
-}  
+
+
 
 .container{ 
     display:flex;
     justify-content: space-between;
     align-items: center;
     background-color: yellow;
-    margin-right: 75px;
-
     
 }
 
@@ -29,10 +24,10 @@ h1{
 
 .jumbotron {
     width: 400px;
-    height: 315px;
+    height: 450px;
     background-color:  #FC4344;
-    margin-left: 380px;
-    margin-top: 120px
+    margin-left: 300px;
+    margin-top: 50px
     
 } 
 
@@ -75,76 +70,81 @@ h1{
 }
 
 .dropdown a.fas {
-    color: orange;
+    color: green;
 } 
+
+div  .long {
+    visibility: hidden;
+   
+}
+/* MOBILE LAYOUT */
+
 @media screen and  (min-width: 576px) {
    header {
        background: yellow;
    }
+
+   h1{
+    font-size: 50px;
+    display: flex;
+    color: red; 
+}  
+
+
+  
+
 }
 
 
 /* TABLET LAYOUT */
 
-/* NavBar Extended */
-/* NavBar Background Color */
+
+@media screen and  (min-width: 768px) {
+    header {
+        background: yellow;
+    }
+
+    /*HAMBURGER HIDDEN */
+    .fas {
+        visibility: hidden;
+    }
+
+/* NAV BG COLOR*/
 .bg-light {
     background-color: pink !important;
     
 }
 
-/* NavBar Text Color */
+/* NAV TEXT COLOR */
 .navbar-light .navbar-nav .nav-link {
     color: red;
 }
 
-/* Hamburger hidden */
-.fas {
+.jumbotron {
+    width: 600px;
+    height: 400px;
+    background-color:  #FC4344;
+    margin-left: 400px;
+    margin-top: 70px
+}
+
+ /* FULL NAME*/
+div .long { 
+    font-size: 25px;
+    color: red;
+}
+
+h1 {
     visibility: hidden;
 }
 
-/* Initial hidden */
-.container h1{
-    display: none;
-}
-
-/* Full Name */
-div .long {
-    color: red;
-    font-size: 50px;
-}
-
-/* Jumbotron for Tablet */
-
-
-.jumbotron{
-    width: 600px;
-    height: 450px;
+.jumbotron-bottom {
     background-color:  #FC4344;
-    margin-left: 400px;
-    margin-top: 50px
-}
-
-/* Quad Cards Layout*/
-
-/* Text color in cards */
-/* div .card {
-    color: red;
-   
-} */
-
-div .card {
-    display: grid;
-    
-  
-    
-
+    width: 500px;
+    height: 450px;
+    margin-left: 495px;
+    margin-top: 65px;
 }
 
 
-
-
-/* @media screen and  (min-width: 768px) {
-    header {
-        background: yellow;
-    } */
+}
