@@ -43,11 +43,8 @@ console.log($portfolio)
 
         const $portCard = $(`
             <div class="card">
-            <img class="card-img-top" src="${project.image}" alt="project.image">     
-            <div class="card-body">
-            <h5 class="card-title"></h5>
-            <p class="card-text"></p>
-            <a href="${project.gitURL}" class="btn btn-primary btn-sm">GitHub</a>
+            <img class="card-img-top" src="${project.image}" alt="project.image">   
+            <a href="${project.liveURL}"button type="button" class="btn btn-success btn-sm">More</a>
             </div>
         </div>`)
         $portfolio.append($portCard)
