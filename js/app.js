@@ -10,6 +10,7 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1lLER4scBm67_Kh6aY1WIif3ORhnK
 /////// .then for when the data arrives/////
 
 .then((data) => {
+
     console.log(data)
 
 
@@ -33,12 +34,33 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1lLER4scBm67_Kh6aY1WIif3ORhnK
 //////  JQUERY TO RENDER YOUR PROJECTS BELOW//////
 /////////////////////////////////////////////////
 
+const $portfolio = $('#portfolio')
+console.log($portfolio)
 
+//////Projects are from the Google Sheet project is EACH project that will loop to create the card , etc/////////
+    projects.forEach((project, index) => {
+        console.log(portfolio)
 
+        const $portCard = $(`
+            <div class="card">
+            <img class="card-img-top" src="${project.image}" alt="project.image">     
+            <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <a href="${project.gitURL}" class="btn btn-primary btn-sm">GitHub</a>
+            </div>
+        </div>`)
+        $portfolio.append($portCard)
+
+    })
 
 })
 
-.catch((error) => {
-    console.error(error)
-})
+
+
+
+
+
+
+
 

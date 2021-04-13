@@ -14,6 +14,7 @@ class TemplateExample extends HTMLElement {
 
 
 
+
 /////////////////////////////////
 // Register the HTML Tag here
 /////////////////////////////////
