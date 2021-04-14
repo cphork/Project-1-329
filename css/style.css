@@ -1,13 +1,19 @@
-h1 {
+/* *  {
+    border: 1px solid white;
+
+} */
+
+/* h1 {
     font-size: 25px;
   
-}
+} */
 
 .container  { 
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: yellow;
+    
+    /* background-color: yellow; */
     
 }
 
@@ -118,14 +124,37 @@ section #portfolio {
 /* //////////////////////////////////////////////////////////////*/
 /* /////MEDIA QUERY FOR PHONES /////////*/
 /* //////////////////////////////////////////////////////////////*/
+
 @media screen and (min-width: 600px) {
-    body {
-        background-color: red;
+    
+body {
+    background-color: red;
     }
 
-.container {
-    margin-right: 0;
-      
+header {
+    background-color: yellow;
+    
+    }
+
+   
+
+ /* NAME TAGS */
+.initials {
+    display: none;
+}
+
+.full-name {
+    font-size: 25px;
+
+}
+
+/* LONGITUDE & LATITUDE */
+p { 
+    
+    color:blueviolet;
+    padding-left: 50px;
+    font-size: 15px;
+
 }
 
 section #portfolio  {
@@ -143,32 +172,75 @@ section #portfolio  {
     
 }
 .landing{
-    height: 350px;
+    height: 400px;
 }
 
 .landing-text {
     margin-left: 350px; 
+    margin-top: 50px;
 }
+
+
+/* LANDING BUTTONS */
+.btn-primary {
+    background-color: orange;
+    color: red;
+    font-size: 10px;
+    height: 20px;
+   
+}
+
+.landing-buttons {
+    width: 95%;
+
+}
+
 
 .moon {
     margin-left: 350px;
+    padding-bottom: 0;
 }
 
 .projects {
-    height: 350px;
+    height: 300px;
 }
 
 .bottom {
-    height: 350px;
+    height: 400px;
 }
 
+
+/* ICONS */
 .media-container {
-    padding-top: 175px;
+    padding-top: 125px;
+    padding-left: 45%;
 }
 
+.icons-container{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+}
 
-]
+.column {
+    display: flex;
+  padding: 10px;
+  height: 20px;
+  /* flex:1; */
+  
+}
 
+/* FORM */
+
+.form-bottom {
+    color: red;
+    height: 200px;
+    width: 200px;
+    padding-left: 25px;
+}
 }
 
 
@@ -185,4 +257,5 @@ section #portfolio  {
     body {
         background-color: red;
     }
-} */
+
+}  */
