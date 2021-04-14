@@ -1,107 +1,7 @@
-.container  { 
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: yellow;
-    
-}
-
-/* HAMBURGER */
-
-.fas  {
-    font-size: 25px  !important;
-    text-decoration: none;
-    color: purple;
- } 
-
- /* LANDING PAGE */
-
- .landing {
-    background-color: #3FEFE5;
-    height: 250px;
-}
-
-.landing-text {
-    font-size:25px;
-    text-align: center;
-    padding-top: 70px;
-
-
-}
-
-.moon {
-    font-size: 10px;
-    text-align: center;
-    padding-bottom: 150px;
-    
-}
-
-
-/* PROJECT SECTION */
-.projects {
-    background-color: #FC4344;
-    height: 250px;
-}
-
-/* CARD SECTION */
-section #portfolio {
-    display: flex;
-    flex-wrap: nowrap;
-    font-size: 15px;
-    color: red;
-}
-
-.card-img-top {
-    display: flex;
-    height: 125px;
-
-}
-
-
-/* BUTTON COLOR */
-.btn-success {
-    background-color: blue;
-   
-}
-
-/* PORTFOLIO TEXT */
-.middle {
-    color: pink;
+h1 {
     font-size: 25px;
-    text-align: center;
+  
 }
-
-
-
-/* BOTTOM SECTION */
-.bottom {
-    background-color: #3FEFE5;
-    height: 250px;
-}
-
-.aboutMe {
-    text-align: center;
-    font-size: 30px;
-    padding-top: 35px;
-}
-
-.written {
-    font-size: 10px;
-    text-align: center;
-    padding-left: 25px;
-    padding-right: 25px;
-
-}
-
-/* MEDIA QUERY FOR PHONES */
-@media screen and (min-width: 600px) {
-    body {
-        background-color: red;
-    }
-}
-
-
-/* TABLET LAYOUT..maybe */
 
 .container  { 
     display:flex;
@@ -152,8 +52,7 @@ section #portfolio {
 section #portfolio {
     display: flex;
     flex-wrap: nowrap;
-    font-size: 15px;
-    color: red;
+ 
 }
 
 .card-img-top {
@@ -200,12 +99,14 @@ section #portfolio {
 
 /* SOCIAL MEDIA ICONS */
 .fab  {
-    color: brown;    
+    color: brown;
+    font-size: 25px;    
 }
 
 .far {
     color: brown;
     text-decoration: none;
+    font-size: 25px;
 }
 
 .media-container {
@@ -214,10 +115,71 @@ section #portfolio {
     padding-top: 50px;
    
 }
+/* //////////////////////////////////////////////////////////////*/
+/* /////MEDIA QUERY FOR PHONES /////////*/
+/* //////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 600px) {
+    body {
+        background-color: red;
+    }
 
-.fa .far .fas {
-    font-size: 15px;
+.container {
+    margin-right: 0;
+      
 }
+
+section #portfolio  {
+    margin-left: 5px;
+}
+
+.aboutMe {
+    text-align: end;
+    padding-right: 150px;
+}
+
+.written {
+    text-align: justify;
+    margin-left: 350px;
+    
+}
+.landing{
+    height: 350px;
+}
+
+.landing-text {
+    margin-left: 350px; 
+}
+
+.moon {
+    margin-left: 350px;
+}
+
+.projects {
+    height: 350px;
+}
+
+.bottom {
+    height: 350px;
+}
+
+.media-container {
+    padding-top: 175px;
+}
+
+
+]
+
+}
+
+
+
+
+ 
+
+
+
+
+
 
 /* @media screen and (min-width: 768px) {
     body {
