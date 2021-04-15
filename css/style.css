@@ -93,14 +93,21 @@ p  {
 section #portfolio {
     display: flex;
     flex-wrap: nowrap;
+    
+
  
 }
 
 .card-img-top {
     display: flex;
-    height: 125px;
+    height: 115px;
+    
 
 }
+
+/* .card {
+    width: 50%;
+} */
 
 
 /* BUTTON COLOR */
@@ -334,13 +341,13 @@ section #portfolio  {
 
 /* /////////////MEDIA QUERY ///////////// */
 
-@media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1024px) {
     body {
         background-color: red;
     }
 
     /* FORM */
-.form-bottom {
+    .form-bottom {
     color: red;
     height: 200px;
     width: 200px;
@@ -432,7 +439,7 @@ p {
 }
 
 .card {
-   margin-left: 75px;
+   margin-left: 70px;
 }
 
 
@@ -448,6 +455,5 @@ p {
     margin-left: 300px;
     margin-top: 30px;
 }
-
 
 } 
