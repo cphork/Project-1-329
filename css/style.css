@@ -17,6 +17,7 @@
     
 }
 
+
 /* HAMBURGER */
 
 .fas  {
@@ -97,7 +98,7 @@ section #portfolio {
 
 .written {
     font-size: 10px;
-    text-align: center;
+    text-align: justify;
     padding-left: 25px;
     padding-right: 25px;
 
@@ -129,15 +130,18 @@ section #portfolio {
     
 body {
     background-color: red;
+    
     }
 
 header {
     background-color: yellow;
-    
+    /* margin-bottom: 50px; */
     }
 
-   
-
+    
+    .wrapper-text{
+        display:flex;
+    }
  /* NAME TAGS */
 .initials {
     display: none;
@@ -155,7 +159,10 @@ p {
     padding-left: 50px;
     font-size: 15px;
 
+
 }
+
+
 
 section #portfolio  {
     margin-left: 5px;
@@ -163,16 +170,21 @@ section #portfolio  {
 
 .aboutMe {
     text-align: end;
-    padding-right: 150px;
+    padding-right: 105px;
+    font-size: 25px;
 }
 
 .written {
-    text-align: justify;
-    margin-left: 350px;
+   width: 350px;
+   height: 225px;
+
+
     
 }
-.landing{
+.landing {
     height: 400px;
+    margin-top: -50px;
+    
 }
 
 .landing-text {
@@ -212,7 +224,7 @@ section #portfolio  {
 
 /* ICONS */
 .media-container {
-    padding-top: 125px;
+    padding-top: 10px;
     padding-left: 45%;
 }
 
@@ -234,13 +246,18 @@ section #portfolio  {
 }
 
 /* FORM */
-
 .form-bottom {
     color: red;
     height: 200px;
     width: 200px;
-    padding-left: 25px;
+    /* padding-left: 25px; */
+    margin-top: 65px;
+    margin-left: 125px;
+   
 }
+
+
+
 }
 
 
