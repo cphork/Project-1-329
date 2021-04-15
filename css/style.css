@@ -6,6 +6,9 @@
 
 /* HIDDEN */
 
+.container {
+        display: none;
+}
 .navbar-light .navbar-toggler-icon {
     display: none;
 }
@@ -50,7 +53,8 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #292c2c;
+    background-color: #292c2c; 
+    max-width: 768px;
     
 }
 
@@ -83,9 +87,6 @@ p  {
     padding-top: 70px;
     font-family: Permanent Marker;
     color: yellow;
-    
-
-
 }
 
 .moon {
@@ -206,7 +207,12 @@ header {
 .container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        margin: 0;
+        /* max-width: 1950px; */
+        
     }
+
+
     
 .wrapper-text{
     display:flex;
@@ -371,6 +377,10 @@ section #portfolio  {
         
     }
 
+    .container {
+        max-width: 1950px;
+
+    }
     /* FORM */
     .form-bottom {
     color: #3FEFE5;
@@ -405,6 +415,10 @@ p {
 
 .container-fluid {
     background-color: #292c2c;
+}
+
+.navbar-nav {
+    padding-left: 120px;
 }
  
 .navbar-light .navbar-nav .nav-link.active {
