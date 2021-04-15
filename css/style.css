@@ -153,7 +153,7 @@ section #portfolio {
 .media-container {
     display: flex;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 5px;
    
 }
 /* //////////////////////////////////////////////////////////////*/
@@ -217,7 +217,8 @@ p .location {
 
 
 section #portfolio  {
-    margin-left: 250px;
+    margin-left: 50px;
+    
 }
 
 .aboutMe {
@@ -269,6 +270,12 @@ section #portfolio  {
     height: 300px;
 }
 
+.card-img-top {
+    height: 175px;
+    width:  165px;
+   
+}
+
 .bottom {
     height: 400px;
 }
@@ -313,9 +320,9 @@ section #portfolio  {
 }
 
 .aboutMe {
-    text-align: end;
+    text-align: center;
     padding-right: 300px;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 
@@ -325,7 +332,7 @@ section #portfolio  {
 
 
 
-/* /////////////MEDIA QUERY 768///////////// */
+/* /////////////MEDIA QUERY ///////////// */
 
 @media screen and (min-width: 1024px) {
     body {
@@ -369,6 +376,18 @@ p {
     
 }
  
+.navbar-light .navbar-toggler-icon {
+    display: inline;
+}
+.navbar-toggler {
+    display: inline; 
+}
+
+.bg-light {
+    display: inline;
+}
+
+
 /* LANDING TEXT */
 
 .landing-text {
@@ -393,15 +412,42 @@ p {
     /* height: 35px;
     width */
     border: none;
+    margin-left: 100px;
    
 }
 
 .landing-buttons {
-    width: 74.7%;
+    width: 72%;
 }
 
 .full-name {
     font-family: Zen Dots;
 }
+
+.card-img-top {
+    height: 175px;
+    width:  365px;
+    
+    
+}
+
+.card {
+   margin-left: 75px;
+}
+
+
+.aboutMe{
+    margin-top: 50px;
+    margin-left: 240px;
+    font-size: 25px;
+}
+
+.written {
+    height: 500px;
+    width: 400px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
 
 } 
