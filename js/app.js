@@ -43,7 +43,7 @@ console.log($portfolio)
 
         const $portCard = $(`
             <div class="card">
-            <img class="card-img-top" src="${project.image}" alt="project.image">   
+            <img class="card-img-top" src="${project.image}" target="_blank alt="project.image">   
             <a href="${project.liveURL}"button type="button" class="btn btn-success btn-sm">More</a>
             </div>
         </div>`)

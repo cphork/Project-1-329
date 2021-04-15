@@ -4,17 +4,50 @@
 
 } */
 
-/* h1 {
-    font-size: 25px;
-  
-} */
+/* HIDDEN */
+
+.navbar-light .navbar-toggler-icon {
+    display: none;
+}
+.navbar-toggler {
+    display: none; 
+}
+
+.bg-light {
+    display: none;
+}
+
+.form-bottom {
+    display: none;
+}
+
+.icons-container {
+    display: none;
+}
+
+.btn-primary {
+    display: none;
+}
+
+.full-name {
+    display: none;
+}
+/* ^^^^^^^^^HIDDEN ITEMS FROM  1024 and 1440^^^^^^^ */
+
+
 
 .container  { 
     display:flex;
     justify-content: space-between;
     align-items: center;
+    background-color: yellow;
     
-    /* background-color: yellow; */
+}
+
+p  { 
+    color:black;
+    padding-left: 20px;
+    font-size: 10px;
     
 }
 
@@ -88,7 +121,7 @@ section #portfolio {
 /* BOTTOM SECTION */
 .bottom {
     background-color: #3FEFE5;
-    height: 250px;
+    height: 340px;
 }
 
 .aboutMe {
@@ -120,14 +153,18 @@ section #portfolio {
 .media-container {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 30px;
    
 }
 /* //////////////////////////////////////////////////////////////*/
 /* /////MEDIA QUERY FOR PHONES /////////*/
 /* //////////////////////////////////////////////////////////////*/
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
+
+    .full name {
+        display: block;
+    }
     
 body {
     background-color: red;
@@ -140,7 +177,6 @@ body {
 
 header {
     background-color: yellow;
-    /* margin-bottom: 50px; */
     }
 
 .container {
@@ -158,16 +194,17 @@ header {
 }
 
 .full-name {
-    font-size: 25px;
+    font-size: 20px;
+    display:inline;
+    font-family: Zen Dots;
 
 }
 
 /* LONGITUDE & LATITUDE */
-p { 
+p .location { 
     color:black;
     padding-left: 50px;
     font-size: 12px;
-    
 }
 
 .location {
@@ -177,14 +214,16 @@ p {
 .location p {
     margin-top: 25px;
 }
+
+
 section #portfolio  {
-    margin-left: 5px;
+    margin-left: 250px;
 }
 
 .aboutMe {
     text-align: end;
-    padding-right: 105px;
-    font-size: 25px;
+    padding-left: 150px;
+    font-size: 20px;
 }
 
 .written {
@@ -199,7 +238,7 @@ section #portfolio  {
 }
 
 .landing-text {
-    margin-left: 300px; 
+    margin-left: 200px; 
     margin-top: 50px;
     color: red;
     font-size: 30px;
@@ -213,15 +252,16 @@ section #portfolio  {
     font-size: 10px;
     height: 25px;
     border: none;
+    display: inline;
    
 }
 
 .landing-buttons {
-    width: 92%;
+    width: 83%;
 }
 
 .moon {
-    margin-left: 300px;
+    margin-left: 200px;
     padding-bottom: 0;
 }
 
@@ -267,7 +307,8 @@ section #portfolio  {
     width: 200px;
     /* padding-left: 25px; */
     margin-top: 65px;
-    margin-left: 125px;
+    margin-right: 150px;
+    display:inline;
    
 }
 
@@ -283,14 +324,10 @@ section #portfolio  {
 
 
 
- 
-
-
-
 
 /* /////////////MEDIA QUERY 768///////////// */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     body {
         background-color: red;
     }
@@ -329,6 +366,7 @@ p {
 
 .container-fluid {
     background-color: yellow;
+    
 }
  
 /* LANDING TEXT */
@@ -359,7 +397,7 @@ p {
 }
 
 .landing-buttons {
-    width: 75%;
+    width: 74.7%;
 }
 
 .full-name {
