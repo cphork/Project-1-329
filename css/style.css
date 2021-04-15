@@ -1,3 +1,4 @@
+
 /* *  {
     border: 1px solid white;
 
@@ -130,7 +131,11 @@ section #portfolio {
     
 body {
     background-color: red;
-    
+   
+    }
+
+    .dropdown {
+        text-align: right;
     }
 
 header {
@@ -138,10 +143,15 @@ header {
     /* margin-bottom: 50px; */
     }
 
-    
-    .wrapper-text{
-        display:flex;
+.container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
+    
+.wrapper-text{
+    display:flex;
+    }
+
  /* NAME TAGS */
 .initials {
     display: none;
@@ -154,16 +164,19 @@ header {
 
 /* LONGITUDE & LATITUDE */
 p { 
-    
-    color:blueviolet;
+    color:black;
     padding-left: 50px;
-    font-size: 15px;
-
-
+    font-size: 12px;
+    
 }
 
+.location {
+    text-align: right; 
+}
 
-
+.location p {
+    margin-top: 25px;
+}
 section #portfolio  {
     margin-left: 5px;
 }
@@ -177,10 +190,8 @@ section #portfolio  {
 .written {
    width: 350px;
    height: 225px;
-
-
-    
 }
+
 .landing {
     height: 400px;
     margin-top: -50px;
@@ -188,8 +199,10 @@ section #portfolio  {
 }
 
 .landing-text {
-    margin-left: 350px; 
+    margin-left: 300px; 
     margin-top: 50px;
+    color: red;
+    font-size: 30px;
 }
 
 
@@ -198,18 +211,17 @@ section #portfolio  {
     background-color: orange;
     color: red;
     font-size: 10px;
-    height: 20px;
+    height: 25px;
+    border: none;
    
 }
 
 .landing-buttons {
-    width: 95%;
-
+    width: 92%;
 }
 
-
 .moon {
-    margin-left: 350px;
+    margin-left: 300px;
     padding-bottom: 0;
 }
 
@@ -224,8 +236,11 @@ section #portfolio  {
 
 /* ICONS */
 .media-container {
+   
     padding-top: 10px;
-    padding-left: 45%;
+    padding-left: 100px;
+    width: 85%;
+    justify-content: space-between;
 }
 
 .icons-container{
@@ -256,6 +271,11 @@ section #portfolio  {
    
 }
 
+.aboutMe {
+    text-align: end;
+    padding-right: 300px;
+    font-size: 25px;
+}
 
 
 }
@@ -268,11 +288,82 @@ section #portfolio  {
 
 
 
+/* /////////////MEDIA QUERY 768///////////// */
 
-
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     body {
         background-color: red;
     }
 
-}  */
+    /* FORM */
+.form-bottom {
+    color: red;
+    height: 200px;
+    width: 200px;
+    /* padding-left: 25px; */
+    margin-top: 65px;
+    margin-left: 300px;
+   
+}
+
+.written {
+    width: 650px;
+    height: 225px;
+ }
+
+ .location {
+    text-align: center; 
+    /* background-color: red; */
+    
+}
+
+p {
+    color: red;
+}
+
+.dropdown {
+    display: none;
+}
+
+/* EXTENDED NAVBAR */
+
+.container-fluid {
+    background-color: yellow;
+}
+ 
+/* LANDING TEXT */
+
+.landing-text {
+    font-size: 45px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.moon {
+    font-size: 15px;
+    text-align: center;
+    /* padding-bottom: 150px; */
+    
+}
+
+/* LANDING BUTTONS */
+
+.btn-primary {
+    background-color: orange;
+    color: red;
+    font-size: 10px;
+    /* height: 35px;
+    width */
+    border: none;
+   
+}
+
+.landing-buttons {
+    width: 75%;
+}
+
+.full-name {
+    font-family: Zen Dots;
+}
+
+} 
