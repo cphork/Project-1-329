@@ -377,6 +377,14 @@ section #portfolio  {
         
     }
 
+   .background-image {
+       display: none;
+   }
+
+    .navbar-expand-lg .navbar-nav{
+        padding-left: 250px;
+    }
+
     .container {
         max-width: 1950px;
 
@@ -418,7 +426,7 @@ p {
 }
 
 .navbar-nav {
-    padding-left: 120px;
+    padding-left: 10px;
 }
  
 .navbar-light .navbar-nav .nav-link.active {
@@ -436,10 +444,6 @@ p {
     display: inline; 
 }
 
-.bg-light {
-    display: inline;
-    
-}
 
 
 /* LANDING TEXT */
