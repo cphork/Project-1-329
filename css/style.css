@@ -83,6 +83,7 @@ p  {
     padding-top: 70px;
     font-family: Permanent Marker;
     color: yellow;
+    
 
 
 }
@@ -92,7 +93,7 @@ p  {
     text-align: center;
     padding-bottom: 150px;
     font-family: Amatic SC;
-    color: #FC4344;
+    color: #3FEFE5;
     
 }
 
@@ -107,26 +108,17 @@ p  {
 section #portfolio {
     display: flex;
     flex-wrap: nowrap;
-    
 
- 
 }
 
 .card-img-top {
     display: flex;
-    height: 115px;
-    
-
+    height: 50px;
 }
-
-/* .card {
-    width: 50%;
-} */
-
 
 /* BUTTON COLOR */
 .btn-success {
-    background-color: #FC4344;
+    background-color: #3FEFE5;
    
 }
 
@@ -158,7 +150,7 @@ section #portfolio {
 .written {
     font-size: 10px;
     text-align: center;
-    color: #FC4344;
+    color: #3FEFE5;
     
     
     /* padding-left: 25px; */
@@ -194,6 +186,7 @@ section #portfolio {
 
     .full name {
         display: block;
+
     }
     
 body {
@@ -228,6 +221,7 @@ header {
     font-size: 20px;
     display:inline;
     font-family: Zen Dots;
+    color: #3FEFE5;
 
 }
 
@@ -245,7 +239,7 @@ p .location {
 
 .location p {
     margin-top: 25px;
-    color: blue;
+    color: gray;
     font-family: Abel;
 }
 
@@ -277,24 +271,25 @@ section #portfolio  {
 .landing-text {
     margin-left: 200px; 
     margin-top: 50px;
-    color: red;
+    color: yellow;
     font-size: 30px;
 }
 
 
 /* LANDING BUTTONS */
 .btn-primary {
-    background-color: orange;
-    color: red;
+    background-color: grey;
+    color: #3FEFE5;
     font-size: 10px;
     height: 25px;
     border: none;
     display: inline;
+    font-family: Amatic SC;
    
 }
 
 .landing-buttons {
-    width: 83%;
+    width: 78.5%;
 }
 
 .moon {
@@ -345,7 +340,7 @@ section #portfolio  {
 
 /* FORM */
 .form-bottom {
-    color: red;
+    color: #3FEFE5;
     height: 200px;
     width: 200px;
     /* padding-left: 25px; */
@@ -378,7 +373,7 @@ section #portfolio  {
 
     /* FORM */
     .form-bottom {
-    color: red;
+    color: #3FEFE5;
     height: 200px;
     width: 200px;
     /* padding-left: 25px; */
@@ -399,7 +394,7 @@ section #portfolio  {
 }
 
 p {
-    color: red;
+    color: gray
 }
 
 .dropdown {
@@ -409,10 +404,17 @@ p {
 /* EXTENDED NAVBAR */
 
 .container-fluid {
-    background-color: yellow;
-    
+    background-color: #292c2c;
 }
  
+.navbar-light .navbar-nav .nav-link.active {
+    color:#3FEFE5;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#3FEFE5;
+}
+
 .navbar-light .navbar-toggler-icon {
     display: inline;
 }
@@ -422,6 +424,7 @@ p {
 
 .bg-light {
     display: inline;
+    
 }
 
 
@@ -443,13 +446,13 @@ p {
 /* LANDING BUTTONS */
 
 .btn-primary {
-    background-color: orange;
-    color: red;
-    font-size: 10px;
-    /* height: 35px;
-    width */
+    background-color: gray;
+    color: #3FEFE5;
+    font-size: 15px;
+  height: 40px;
+  width: 80px;
     border: none;
-    margin-left: 100px;
+    margin-left: 90px;
    
 }
 
@@ -459,6 +462,7 @@ p {
 
 .full-name {
     font-family: Zen Dots;
+    
 }
 
 .card-img-top {

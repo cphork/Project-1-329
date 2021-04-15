@@ -53,12 +53,3 @@ console.log($portfolio)
     })
 
 })
-
-
-
-
-
-
-
-
-
