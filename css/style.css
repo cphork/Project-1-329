@@ -35,17 +35,27 @@
 /* ^^^^^^^^^HIDDEN ITEMS FROM  1024 and 1440^^^^^^^ */
 
 
+.initials {
+    font-size: 30px;
+    font-family: Zen Dots;
+    color: #3FEFE5;
+
+    }
+
+.border-color {
+    border: 1px solid gray;
+    }
 
 .container  { 
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: yellow;
+    background-color: #292c2c;
     
 }
 
 p  { 
-    color:black;
+    color:gray;
     padding-left: 20px;
     font-size: 10px;
     
@@ -57,13 +67,13 @@ p  {
 .fas  {
     font-size: 25px  !important;
     text-decoration: none;
-    color: purple;
+    color: #3FEFE5;
  } 
 
  /* LANDING PAGE */
 
  .landing {
-    background-color: #3FEFE5;
+    background-color: #292c2c;
     height: 250px;
 }
 
@@ -71,21 +81,25 @@ p  {
     font-size:25px;
     text-align: center;
     padding-top: 70px;
+    font-family: Permanent Marker;
+    color: yellow;
 
 
 }
 
 .moon {
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
     padding-bottom: 150px;
+    font-family: Amatic SC;
+    color: #FC4344;
     
 }
 
 
 /* PROJECT SECTION */
 .projects {
-    background-color: #FC4344;
+    background-color: #3FEFE5;
     height: 250px;
 }
 
@@ -112,22 +126,25 @@ section #portfolio {
 
 /* BUTTON COLOR */
 .btn-success {
-    background-color: blue;
+    background-color: #FC4344;
    
 }
 
 /* PORTFOLIO TEXT */
 .middle {
-    color: pink;
+    color: gray;
+    text-decoration: underline;
+    font-weight: bold;
     font-size: 25px;
     text-align: center;
+    font-family: New Tegomin;
 }
 
 
 
 /* BOTTOM SECTION */
 .bottom {
-    background-color: #3FEFE5;
+    background-color: #292c2c;
     height: 340px;
 }
 
@@ -135,24 +152,30 @@ section #portfolio {
     text-align: center;
     font-size: 30px;
     padding-top: 35px;
+    font-family: Rajdhani;
 }
 
 .written {
     font-size: 10px;
-    text-align: justify;
-    padding-left: 25px;
-    padding-right: 25px;
+    text-align: center;
+    color: #FC4344;
+    
+    
+    /* padding-left: 25px; */
+    /* padding-right: 25px; */
+    
+    font-family: New Tegomin;
 
 }
 
 /* SOCIAL MEDIA ICONS */
 .fab  {
-    color: brown;
+    color: #3FEFE5;
     font-size: 25px;    
 }
 
 .far {
-    color: brown;
+    color: #3FEFE5;
     text-decoration: none;
     font-size: 25px;
 }
@@ -184,6 +207,7 @@ body {
 
 header {
     background-color: yellow;
+    
     }
 
 .container {
@@ -209,18 +233,23 @@ header {
 
 /* LONGITUDE & LATITUDE */
 p .location { 
-    color:black;
     padding-left: 50px;
     font-size: 12px;
+    
 }
 
 .location {
     text-align: right; 
+    
 }
 
 .location p {
     margin-top: 25px;
+    color: blue;
+    font-family: Abel;
 }
+
+
 
 
 section #portfolio  {
@@ -344,6 +373,7 @@ section #portfolio  {
     @media screen and (min-width: 1024px) {
     body {
         background-color: red;
+        
     }
 
     /* FORM */
