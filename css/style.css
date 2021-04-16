@@ -262,7 +262,7 @@ p .location {
 }
 
 section #portfolio  {
-    margin-right: 75px;
+    /* margin-right: 75px; */
    
     
 }
@@ -503,6 +503,9 @@ p {
    margin-left: 70px;
 }
 
+section #portfolio {
+    margin-right: 75px;
+}
 
 .aboutMe{
     margin-top: 50px;
