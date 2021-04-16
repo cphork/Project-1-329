@@ -38,12 +38,11 @@ const $portfolio = $('#portfolio')
 console.log($portfolio)
 
 //////Projects are from the Google Sheet project is EACH project that will loop to create the card , etc/////////
-    projects.forEach((project, index) => {
+    projects.forEach((project, index ) => {
         console.log(portfolio)
 
         const $portCard = $(`
             <div class="card">
-            
             <img class="card-img-top" src="${project.image}" target="_blank alt="project.image">   
             <a href="${project.liveURL}"button type="button" class="btn btn-success btn-sm">More</a>
             </div>

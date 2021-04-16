@@ -5,6 +5,11 @@
 } */
 
 /* HIDDEN */
+
+.icons-text {
+    display: none;
+}
+
 section #portfolio {
     display: none;
 }
@@ -80,6 +85,9 @@ p  {
     color: #3FEFE5;
  } 
 
+ .dropdown {
+    margin-left: 150px;
+ }
  /* LANDING PAGE */
 
  .landing {
@@ -106,31 +114,43 @@ p  {
 }
 
 
+
 /* PROJECT SECTION */
 .projects {
     background-color: #3FEFE5;
-    height: 170px;
+    height: 1350px;
 }
 
 /* CARD SECTION */
 section #portfolio {
     display: flex;
     justify-content: space-around;
-    
+    flex-direction: column;
 
 }
 
+.card {
+    background-color: transparent;
+    border: none;
+    margin: 10px;
+}
+
+
 .card-img-top {
     display: flex;
-    justify-content: center;
-    height: 50px;
-    width: 50px;
+    align-self: center;
+    height: 250px;
+    width: 250px;
+    /* margin: 50px; */
+    border: 5px solid teal;
 }
 
 /* BUTTON COLOR */
 .btn-success {
     background-color: #3FEFE5;
     color: black;
+    width: 250px;
+    align-self: center;
    
 }
 
@@ -139,9 +159,10 @@ section #portfolio {
     color: gray;
     text-decoration: underline;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     font-family: New Tegomin;
+    
 }
 
 
@@ -149,11 +170,11 @@ section #portfolio {
 /* BOTTOM SECTION */
 .bottom {
     background-color: #292c2c;
-    height: 340px;
+    height: 400px;
 }
 
 .aboutMe {
-    /* text-align: center; */
+    text-align: center;
     font-size: 30px;
     padding-top: 35px;
     font-family: Rajdhani;
@@ -161,10 +182,12 @@ section #portfolio {
 }
 
 .written {
-    font-size: 15px;
-    text-align: center;
+    font-size: 20px;
+    text-align: left;
     color: #3FEFE5;
     font-family: New Tegomin;
+    width: 320px;
+    margin-left: 40px;
 
 }
 
@@ -209,6 +232,7 @@ body {
     }
     .dropdown {
         text-align: right;
+        
     }
 
 header {
@@ -261,11 +285,7 @@ p .location {
 
 }
 
-section #portfolio  {
-    /* margin-right: 75px; */
-   
-    
-}
+
 
 .aboutMe {
     text-align: end;
@@ -292,6 +312,17 @@ section #portfolio  {
 }
 
 
+.image-landing{
+    display: inline;
+    position: relative;
+    left: 10%;
+    bottom: 35.5%;
+    border:5px solid#3FEFE5;
+    width: 200px;
+    opacity: 0.7;
+        
+}
+
 /* LANDING BUTTONS */
 .btn-primary {
     background-color: grey;
@@ -315,27 +346,40 @@ section #portfolio  {
 }
 
 .projects {
-    height: 300px;
+    height: 1550px;
+}
+
+.btn-success {
+    width: 350px;
+    font-size: 20px;
 }
 
 .card-img-top {
-    height: 175px;
-    width:  165px;
+    height: 300px;
+    width:  350px;
+    
    
 }
 
 .bottom {
-    height: 400px;
+    height: 500px;
 }
 
 
 /* ICONS */
 .media-container {
+   padding-top: 10px;
+   padding-left: 100px;
+   width: 85%;
+   justify-content: space-between;
    
-    padding-top: 10px;
-    padding-left: 100px;
-    width: 85%;
-    justify-content: space-between;
+}
+
+.icons-text {
+    font-size: 25px;
+    font-family: Rajdhani;
+    margin-left: 200px;
+    display: inline;
 }
 
 .icons-container{
@@ -348,7 +392,7 @@ section #portfolio  {
 }
 
 .column {
-    display: flex;
+ display: flex;
   padding: 10px;
   height: 20px;
   /* flex:1; */
@@ -361,16 +405,17 @@ section #portfolio  {
     height: 200px;
     width: 200px;
     /* padding-left: 25px; */
-    margin-top: 65px;
-    margin-right: 150px;
-    display:inline;
+    margin-top: 120px;
+    margin-left: 150px;
+    display: inline;
    
 }
 
 .aboutMe {
-    text-align: center;
-    padding-right: 300px;
-    font-size: 18px;
+    text-align: left;
+    margin-top: 75px;
+    font-size: 30px;
+
 }
 
 
@@ -387,8 +432,6 @@ section #portfolio  {
         background-color: red;
         
     }
-
-    
 
     .navbar-expand-lg .navbar-nav{
         padding-left: 250px;
@@ -426,7 +469,10 @@ p {
 
 .dropdown {
     display: none;
+    
 }
+
+
 
 /* EXTENDED NAVBAR */
 
@@ -476,8 +522,8 @@ p {
     background-color: gray;
     color: #3FEFE5;
     font-size: 15px;
-  height: 40px;
-  width: 80px;
+    height: 40px;
+    width: 80px;
     border: none;
     margin-left: 90px;
    
@@ -509,7 +555,7 @@ section #portfolio {
 
 .aboutMe{
     margin-top: 50px;
-    margin-left: 240px;
+    margin-left: 300px;
     font-size: 25px;
 }
 
@@ -524,10 +570,62 @@ section #portfolio {
     display: inline;
     position: relative;
     left: 25%;
-    bottom: 58.5%;
-    border:10px solid#3FEFE5;
-        
-       
+    bottom: 48.5%;
+    border:5px solid#3FEFE5;
+    opacity: 0.7;
+}
+
+section #portfolio {
+    display: none;
+}
+
+section #portfolio {
+    display: inline;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.projects {
+    background-color: #3FEFE5;
+    height: 550px;
+}
+
+.btn-success {
+    width: 450px;
+    font-size: 20px;
+    color: gray;
+    
+}
+
+
+.card-img-top {
+    display: flex;
+    align-self: center;
+    height: 400px;
+    width: 450px;
+    /* margin: 50px; */
+    border: 5px solid teal;
+}
+
+
+.icons-text {
+    font-size: 25px;
+    font-family: Rajdhani;
+    margin-left: 800px;
+    display: inline;
+}
+
+
+/* FORM */
+.form-bottom {
+    color: #3FEFE5;
+    height: 00px;
+    width: 200px;
+    /* padding-left: 25px; */
+    margin-top: 150px;
+    margin-left: 550px;
+   
 }
 
 } 

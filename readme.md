@@ -96,16 +96,16 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Header & About Me typed out and sound| L | 5hrs | hr |
-| Interactive Self Photo(s)| M | 6hrs | hr |
-| Make own icon | L | 5hrs | hr |
-| Cursor/Hover Effects| L | 3hrs | -hr | hr |
-| Add Social Media| L | 4hrs | -hr | hr |
-| Total | H | 28hrs| hrs |
+| Header & About Me typed out and sound| L | 5hrs | 5hrs| (no animation or sound)
+| Interactive Self Photo(s)| M | 6hrs | 3hrs | (no interactive photos yet)
+| Make own icon | L | 5hrs | 0hr | (did not have time but will be something I will work on)
+| Cursor/Hover Effects| L | 3hrs | 0 hr | hr | (did not have time)
+| Add Social Media| L | 4hrs | 4hrs | hr |
+| Total | H | 28hrs| 15hrs |
  
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
-www.googlefonts.com
+ www.googlefonts.com
  www.bootstrap.com
  www.fontawesome.com
 
@@ -120,8 +120,21 @@ function reverse(string) {
 ```
 
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
+***Major:***
 
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+- My understanding of media was unclear until it was explained by Monica and Kenny. Spent 1/2 a day fixing it and it looks...decent.
+
+- Aligning the cards for the projects for different view points has been challenging.
+
+-Margins are great and a nuisance.  I think I am getting the hang of how and when to use them.
+
+***Minor:***
+
+-Adding images should have been an easy task and yet it gave me  1/2 day of problems, but it appears to be working now.
+
+-Adding animations is more work than I thought.  So, I didn't include it in this project.  Hopefully I will be able to in future projects.
+
+
+<!-- ERROR MESSAGES -->
+**ERROR**:Error in DevTools for uploading images. 
+**RESOLUTION**: It appeared I did not update my gsheet with the updated deploy links and imgur had issues with loading images. Also, Fire Fox is the enemy and will not load the page correctly.                                
