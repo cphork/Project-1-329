@@ -5,7 +5,9 @@
 } */
 
 /* HIDDEN */
-
+section #portfolio {
+    display: none;
+}
 .container {
         display: none;
 }
@@ -17,6 +19,10 @@
 }
 
 .bg-light {
+    display: none;
+}
+
+img {
     display: none;
 }
 
@@ -79,6 +85,7 @@ p  {
  .landing {
     background-color: #292c2c;
     height: 250px;
+    
 }
 
 .landing-text {
@@ -102,24 +109,28 @@ p  {
 /* PROJECT SECTION */
 .projects {
     background-color: #3FEFE5;
-    height: 250px;
+    height: 170px;
 }
 
 /* CARD SECTION */
 section #portfolio {
     display: flex;
-    flex-wrap: nowrap;
+    justify-content: space-around;
+    
 
 }
 
 .card-img-top {
     display: flex;
+    justify-content: center;
     height: 50px;
+    width: 50px;
 }
 
 /* BUTTON COLOR */
 .btn-success {
     background-color: #3FEFE5;
+    color: black;
    
 }
 
@@ -142,21 +153,17 @@ section #portfolio {
 }
 
 .aboutMe {
-    text-align: center;
+    /* text-align: center; */
     font-size: 30px;
     padding-top: 35px;
     font-family: Rajdhani;
+    
 }
 
 .written {
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
     color: #3FEFE5;
-    
-    
-    /* padding-left: 25px; */
-    /* padding-right: 25px; */
-    
     font-family: New Tegomin;
 
 }
@@ -183,7 +190,7 @@ section #portfolio {
 /* /////MEDIA QUERY FOR PHONES /////////*/
 /* //////////////////////////////////////////////////////////////*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 700px) {
 
     .full name {
         display: block;
@@ -195,6 +202,11 @@ body {
    
     }
 
+
+    img{
+     display: none;
+       
+    }
     .dropdown {
         text-align: right;
     }
@@ -212,8 +224,6 @@ header {
         
     }
 
-
-    
 .wrapper-text{
     display:flex;
     }
@@ -247,13 +257,13 @@ p .location {
     margin-top: 25px;
     color: gray;
     font-family: Abel;
+    font-size: 25px;
+
 }
 
-
-
-
 section #portfolio  {
-    margin-left: 50px;
+    margin-right: 75px;
+   
     
 }
 
@@ -296,6 +306,7 @@ section #portfolio  {
 
 .landing-buttons {
     width: 78.5%;
+    
 }
 
 .moon {
@@ -377,9 +388,7 @@ section #portfolio  {
         
     }
 
-   .background-image {
-       display: none;
-   }
+    
 
     .navbar-expand-lg .navbar-nav{
         padding-left: 250px;
@@ -455,7 +464,7 @@ p {
 }
 
 .moon {
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
     /* padding-bottom: 150px; */
     
@@ -506,6 +515,16 @@ p {
     width: 400px;
     margin-left: 300px;
     margin-top: 30px;
+}
+
+.image-landing{
+    display: inline;
+    position: relative;
+    left: 25%;
+    bottom: 58.5%;
+    border:10px solid#3FEFE5;
+        
+       
 }
 
 } 
