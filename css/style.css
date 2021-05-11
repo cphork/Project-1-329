@@ -206,8 +206,7 @@ section #portfolio {
 .media-container {
     display: flex;
     justify-content: center;
-    padding-top: 5px;
-   
+    padding-top: 5px
 }
 /* //////////////////////////////////////////////////////////////*/
 /* /////MEDIA QUERY FOR PHONES /////////*/
@@ -225,11 +224,6 @@ body {
    
     }
 
-
-    img{
-     display: none;
-       
-    }
     .dropdown {
         text-align: right;
         
@@ -434,7 +428,8 @@ p .location {
     }
 
     .navbar-expand-lg .navbar-nav{
-        padding-left: 250px;
+        padding-left: -20px;
+        font-size: 30px;
     }
 
     .container {
@@ -569,7 +564,7 @@ section #portfolio {
 .image-landing{
     display: inline;
     position: relative;
-    left: 25%;
+    left: 15%;
     bottom: 48.5%;
     border:5px solid#3FEFE5;
     opacity: 0.7;
@@ -620,12 +615,13 @@ section #portfolio {
 /* FORM */
 .form-bottom {
     color: #3FEFE5;
-    height: 00px;
+    height: 300px;
     width: 200px;
     /* padding-left: 25px; */
     margin-top: 150px;
     margin-left: 550px;
    
 }
+
 
 } 
